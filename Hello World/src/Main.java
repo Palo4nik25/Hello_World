@@ -3,5 +3,6 @@ public class Main {
         long start = System.currentTimeMillis();
         System.out.println("Hello world!");
         System.out.println(System.currentTimeMillis() - start + "ms");
+        System.out.println("Hello!");
     }
 }
