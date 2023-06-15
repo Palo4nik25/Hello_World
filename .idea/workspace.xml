@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d3a532d-f994-4f8b-a1af-4c44b3d92048" name="Changes" comment="Added playAgain system">
+    <list default="true" id="8d3a532d-f994-4f8b-a1af-4c44b3d92048" name="Changes" comment="Created another Hello!">
+      <change beforePath="$PROJECT_DIR$/.idea/Hello_World.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hello_World.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello World/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hello World/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,21 +49,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686815138250</updated>
     </task>
-    <task id="LOCAL-00002" summary="Changed Hello world app, to a weight sorting app">
-      <created>1686822860168</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1686822860168</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added playAgain system and try-catch block for checking input on exceptions">
-      <created>1686824374865</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1686824374865</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,9 +65,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created another Hello!" />
-    <MESSAGE value="Changed Hello world app, to a weight sorting app" />
-    <MESSAGE value="Added playAgain system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added playAgain system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created another Hello!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Hello_World$Main.ic" NAME="Main Coverage Results" MODIFIED="1686822476100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
