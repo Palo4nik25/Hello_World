@@ -14,7 +14,7 @@ public class WeightSort {
                 }
 
                 int min = input[0], max = input[0], mid = input[0];
-                for (int i = 0; i < input.length; i++) {
+                for (int i = 1; i < input.length; i++) {
                     if (input[i] < min) {
                         mid = max;
                         max = min;
