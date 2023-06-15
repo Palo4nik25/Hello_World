@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d3a532d-f994-4f8b-a1af-4c44b3d92048" name="Changes" comment="Created another Hello!">
-      <change beforePath="$PROJECT_DIR$/.idea/Hello_World.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hello_World.iml" afterDir="false" />
+    <list default="true" id="8d3a532d-f994-4f8b-a1af-4c44b3d92048" name="Changes" comment="Changed Hello world app, to a weight sorting app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hello World/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hello World/src/Main.java" afterDir="false" />
     </list>
@@ -49,7 +48,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686815138250</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed Hello world app, to a weight sorting app">
+      <created>1686822860168</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686822860168</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,7 +71,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created another Hello!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created another Hello!" />
+    <MESSAGE value="Changed Hello world app, to a weight sorting app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Hello world app, to a weight sorting app" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Hello_World$Main.ic" NAME="Main Coverage Results" MODIFIED="1686822476100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

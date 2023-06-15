@@ -4,8 +4,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        boolean playAgain = true;
         int[] input = new int[3];
-        while(true) {
+        while (playAgain) {
             try {
                 for (int i = 0; i < input.length; i++) {
                     System.out.print("Enter your weight: ");
@@ -25,9 +26,20 @@ public class Main {
                         mid = input[i];
                     }
                 }
-                System.out.println("The largest weight is: " + max + "\nMiddle weight is: " + mid + "\nThe smallest weight is: " + min);
-                break;
+                System.out.println("\nThe largest weight is: " + max + "\nMiddle weight is: " + mid + "\nThe smallest weight is: " + min);
 
+                System.out.println("\nDo you want to play again? (Y/N): ");
+                scan.nextLine();
+                String ans = scan.nextLine().trim().toUpperCase();
+                while (!ans.equals("Y") && !ans.equals("N")) {
+                    System.out.println("Invalid input, please type: 'Y' or 'N'.");
+                    ans = scan.nextLine().trim().toUpperCase();
+                }
+                if (ans.equals("N")) {
+                    System.out.println("See you later!");
+                    playAgain = false;
+                    scan.close();
+                }
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input, please try again.");
                 scan.nextLine();
