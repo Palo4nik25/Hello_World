@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
+public class WeightSort {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         boolean playAgain = true;
