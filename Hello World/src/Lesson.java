@@ -5,11 +5,11 @@ public class Lesson {
         float[] weight = new float[10];
         float sum = 0f;
         int count = 0;
+        Random random = new Random();
 
         for (int i = 0; i < weight.length; i++) {
-            weight[i] = (new Random().nextFloat(40, 100));
+            weight[i] = random.nextFloat() * 60 + 40;
             sum += weight[i];
-
             if (weight[i] >= 60 && weight[i]<= 80) {
                 count++;
             }
