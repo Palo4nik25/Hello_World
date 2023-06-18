@@ -1,11 +1,11 @@
 package com.oop;
 public class Main {
-    static boolean bool = true;
+    static boolean isPlaying = true;
     public static void main(String[] args) {
         Logic game = new Logic();
-        while (bool) {
+        while (isPlaying) {
             Logic.countCode();
-            bool = game.playAgain();
+            isPlaying = game.playAgain();
         }
     }
 }
