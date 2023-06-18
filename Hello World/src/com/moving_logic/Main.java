@@ -1,4 +1,4 @@
-package com.oop;
+package com.moving_logic;
 public class Main {
     static boolean isPlaying = true;
     public static void main(String[] args) {

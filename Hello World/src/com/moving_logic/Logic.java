@@ -1,4 +1,4 @@
-package com.oop;
+package com.moving_logic;
 import java.util.Scanner;
 public class Logic {
     static int x = 0;
