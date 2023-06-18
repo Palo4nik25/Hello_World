@@ -21,18 +21,6 @@ public class Logic {
         return direction;
     }
 
-    public static void countCode() {
-        String direct = inputDirection();
-        int dist = inputDistance();
-
-        if(direct.equals("H")) {
-            x += dist;
-        } else if (direct.equals("V")) {
-            y += dist;
-        }
-        System.out.println("X cords: " + x + "\nY cords: " + y + "\n");
-    }
-
     private static int inputDistance() {
         int distance = 0;
         boolean validInput = false;
@@ -50,6 +38,18 @@ public class Logic {
 
         scan.nextLine();
         return distance;
+    }
+
+    public static void countCode() {
+        String direct = inputDirection();
+        int dist = inputDistance();
+
+        if(direct.equals("H")) {
+            x += dist;
+        } else if (direct.equals("V")) {
+            y += dist;
+        }
+        System.out.println("X cords: " + x + "\nY cords: " + y + "\n");
     }
 
     public boolean playAgain() {
